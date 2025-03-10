@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    height: 640px;
+    background-color: #3D021E;
+    border:1px solid #e9e6e6;
+    text-transform: capitalize;
+}
+
+.one {
+    height: 100px;
+    background-color: #FBEFF2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.one_1, .one_2, .one_3, .one_4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 80px 100px 0 100px;
+    color: #fff;
+    height: 350px;
+}
+
+.two_1 {
+    width: 220px;
+}
+
+.two_2 {
+    width: 130px;
+}
+
+.two_3 {
+    width: 600px;
+}
+
+.two_list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.two_list a {
+    font-size: 12.5px;
+    color: #fff;
+}
+
+.two_list a:hover {
+    color: #d93c80;
+}
+
+.two_3 .two_text, .two_3 label {
+    font-size: 13px;
+}
+
+.two_3 input:nth-child(1) {
+    width: 420px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+
+.two_3 input:nth-child(2) {
+    height: 42px;
+    width: 98px;
+    background: transparent;
+    border:2px solid #e9e6e6;
+    color: #e9e6e6;
+}
+
+.two_3 form {
+    margin-top: 30px;
+}
+
+.three {
+    height: 70px;
+    background-color: #280114;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.three_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.three_button_1, .three_button_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    gap: 5px;
+}
+
+.three_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.four {
+    height: 60px;
+    background-color: #14010A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.four_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.four_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+    font-size: 13px;
+}
